@@ -175,5 +175,10 @@ namespace Project_3_GUI
             newForm.Show();
             this.Hide();
         }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
     }
 }
