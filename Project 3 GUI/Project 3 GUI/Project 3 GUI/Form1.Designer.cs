@@ -46,7 +46,7 @@
             this.Spangen = new System.Windows.Forms.Label();
             this.Nieuwe_Werk = new System.Windows.Forms.Label();
             this.Tussendijken = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.Bospolder = new System.Windows.Forms.Label();
             this.Nieuwe_Western = new System.Windows.Forms.Label();
             this.Middelland = new System.Windows.Forms.Label();
             this.NIeuwe_Mathenesse = new System.Windows.Forms.Label();
@@ -110,6 +110,7 @@
             this.Oude_Westen.Name = "Oude_Westen";
             this.Oude_Westen.Size = new System.Drawing.Size(51, 66);
             this.Oude_Westen.TabIndex = 2;
+            this.Oude_Westen.Click += new System.EventHandler(this.Oude_Westen_Click);
             // 
             // Cool
             // 
@@ -119,6 +120,7 @@
             this.Cool.Name = "Cool";
             this.Cool.Size = new System.Drawing.Size(39, 85);
             this.Cool.TabIndex = 3;
+            this.Cool.Click += new System.EventHandler(this.Cool_Click);
             // 
             // Cs_kwartier
             // 
@@ -128,6 +130,7 @@
             this.Cs_kwartier.Name = "Cs_kwartier";
             this.Cs_kwartier.Size = new System.Drawing.Size(75, 28);
             this.Cs_kwartier.TabIndex = 4;
+            this.Cs_kwartier.Click += new System.EventHandler(this.Cs_kwartier_Click);
             // 
             // Rubroek
             // 
@@ -137,6 +140,7 @@
             this.Rubroek.Name = "Rubroek";
             this.Rubroek.Size = new System.Drawing.Size(37, 31);
             this.Rubroek.TabIndex = 5;
+            this.Rubroek.Click += new System.EventHandler(this.Rubroek_Click);
             // 
             // Oud_Crooswijk
             // 
@@ -146,6 +150,7 @@
             this.Oud_Crooswijk.Name = "Oud_Crooswijk";
             this.Oud_Crooswijk.Size = new System.Drawing.Size(32, 49);
             this.Oud_Crooswijk.TabIndex = 6;
+            this.Oud_Crooswijk.Click += new System.EventHandler(this.Oud_Crooswijk_Click);
             // 
             // Agniesbuurt
             // 
@@ -155,6 +160,7 @@
             this.Agniesbuurt.Name = "Agniesbuurt";
             this.Agniesbuurt.Size = new System.Drawing.Size(39, 69);
             this.Agniesbuurt.TabIndex = 7;
+            this.Agniesbuurt.Click += new System.EventHandler(this.Agniesbuurt_Click);
             // 
             // Provenierswijk
             // 
@@ -164,6 +170,7 @@
             this.Provenierswijk.Name = "Provenierswijk";
             this.Provenierswijk.Size = new System.Drawing.Size(35, 36);
             this.Provenierswijk.TabIndex = 8;
+            this.Provenierswijk.Click += new System.EventHandler(this.Provenierswijk_Click);
             // 
             // Kop_van_Zuid
             // 
@@ -173,6 +180,7 @@
             this.Kop_van_Zuid.Name = "Kop_van_Zuid";
             this.Kop_van_Zuid.Size = new System.Drawing.Size(65, 51);
             this.Kop_van_Zuid.TabIndex = 9;
+            this.Kop_van_Zuid.Click += new System.EventHandler(this.Kop_van_Zuid_Click);
             // 
             // Dijkzigt
             // 
@@ -182,6 +190,7 @@
             this.Dijkzigt.Name = "Dijkzigt";
             this.Dijkzigt.Size = new System.Drawing.Size(69, 19);
             this.Dijkzigt.TabIndex = 10;
+            this.Dijkzigt.Click += new System.EventHandler(this.Dijkzigt_Click);
             // 
             // Spangen
             // 
@@ -191,6 +200,7 @@
             this.Spangen.Name = "Spangen";
             this.Spangen.Size = new System.Drawing.Size(73, 66);
             this.Spangen.TabIndex = 12;
+            this.Spangen.Click += new System.EventHandler(this.Spangen_Click);
             // 
             // Nieuwe_Werk
             // 
@@ -200,6 +210,7 @@
             this.Nieuwe_Werk.Name = "Nieuwe_Werk";
             this.Nieuwe_Werk.Size = new System.Drawing.Size(71, 43);
             this.Nieuwe_Werk.TabIndex = 13;
+            this.Nieuwe_Werk.Click += new System.EventHandler(this.Nieuwe_Werk_Click);
             // 
             // Tussendijken
             // 
@@ -209,16 +220,18 @@
             this.Tussendijken.Name = "Tussendijken";
             this.Tussendijken.Size = new System.Drawing.Size(77, 29);
             this.Tussendijken.TabIndex = 14;
+            this.Tussendijken.Click += new System.EventHandler(this.Tussendijken_Click);
             // 
-            // label15
+            // Bospolder
             // 
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label15.Location = new System.Drawing.Point(393, 556);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(77, 30);
-            this.label15.TabIndex = 15;
-            this.label15.Tag = "Bospolder";
+            this.Bospolder.BackColor = System.Drawing.Color.Transparent;
+            this.Bospolder.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Bospolder.Location = new System.Drawing.Point(393, 556);
+            this.Bospolder.Name = "Bospolder";
+            this.Bospolder.Size = new System.Drawing.Size(77, 30);
+            this.Bospolder.TabIndex = 15;
+            this.Bospolder.Tag = "Bospolder";
+            this.Bospolder.Click += new System.EventHandler(this.label15_Click);
             // 
             // Nieuwe_Western
             // 
@@ -228,6 +241,7 @@
             this.Nieuwe_Western.Name = "Nieuwe_Western";
             this.Nieuwe_Western.Size = new System.Drawing.Size(64, 96);
             this.Nieuwe_Western.TabIndex = 16;
+            this.Nieuwe_Western.Click += new System.EventHandler(this.Nieuwe_Western_Click);
             // 
             // Middelland
             // 
@@ -237,6 +251,7 @@
             this.Middelland.Name = "Middelland";
             this.Middelland.Size = new System.Drawing.Size(38, 98);
             this.Middelland.TabIndex = 17;
+            this.Middelland.Click += new System.EventHandler(this.Middelland_Click);
             // 
             // NIeuwe_Mathenesse
             // 
@@ -246,6 +261,7 @@
             this.NIeuwe_Mathenesse.Name = "NIeuwe_Mathenesse";
             this.NIeuwe_Mathenesse.Size = new System.Drawing.Size(90, 81);
             this.NIeuwe_Mathenesse.TabIndex = 18;
+            this.NIeuwe_Mathenesse.Click += new System.EventHandler(this.NIeuwe_Mathenesse_Click);
             // 
             // Oud_Mathenesse
             // 
@@ -255,6 +271,7 @@
             this.Oud_Mathenesse.Name = "Oud_Mathenesse";
             this.Oud_Mathenesse.Size = new System.Drawing.Size(90, 77);
             this.Oud_Mathenesse.TabIndex = 19;
+            this.Oud_Mathenesse.Click += new System.EventHandler(this.Oud_Mathenesse_Click);
             // 
             // Witte_dorp
             // 
@@ -264,6 +281,7 @@
             this.Witte_dorp.Name = "Witte_dorp";
             this.Witte_dorp.Size = new System.Drawing.Size(67, 55);
             this.Witte_dorp.TabIndex = 20;
+            this.Witte_dorp.Click += new System.EventHandler(this.Witte_dorp_Click);
             // 
             // Delfshaven
             // 
@@ -273,6 +291,7 @@
             this.Delfshaven.Name = "Delfshaven";
             this.Delfshaven.Size = new System.Drawing.Size(77, 30);
             this.Delfshaven.TabIndex = 21;
+            this.Delfshaven.Click += new System.EventHandler(this.Delfshaven_Click);
             // 
             // Form1
             // 
@@ -285,7 +304,7 @@
             this.Controls.Add(this.NIeuwe_Mathenesse);
             this.Controls.Add(this.Middelland);
             this.Controls.Add(this.Nieuwe_Western);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.Bospolder);
             this.Controls.Add(this.Tussendijken);
             this.Controls.Add(this.Nieuwe_Werk);
             this.Controls.Add(this.Spangen);
@@ -329,7 +348,7 @@
         private System.Windows.Forms.Label Spangen;
         private System.Windows.Forms.Label Nieuwe_Werk;
         private System.Windows.Forms.Label Tussendijken;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label Bospolder;
         private System.Windows.Forms.Label Nieuwe_Western;
         private System.Windows.Forms.Label Middelland;
         private System.Windows.Forms.Label NIeuwe_Mathenesse;
