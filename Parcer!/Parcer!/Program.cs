@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace Parcer_
 {
-    class Program
+    class SqlConnectionDemo
     {
-        static void Main(string[] args)
+        static void Main()
         {
-           Parcer parcer = new Parcer();
-           parcer.Straatroven();
+            //Parcer_Straatroven parcer = new Parcer_Straatroven();
+            //parcer.Straatroven();
+            Parcer_Fietsdiefstal parcer_2 = new Parcer_Fietsdiefstal();
+            parcer_2.fietsdiefstal();
         }
     }
 }
+    
