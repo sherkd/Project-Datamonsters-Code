@@ -22,7 +22,6 @@ namespace Project_3_GUI
             Form3 newForm = new Form3();
             newForm.Show();
             this.Hide();
-
         }
 
         private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
