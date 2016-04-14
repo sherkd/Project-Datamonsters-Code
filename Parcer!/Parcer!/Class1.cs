@@ -10,6 +10,8 @@
 //    using System.Data;
 //    using System.Data.SqlClient;
 
+//    test2
+
 //    /// <summary>
 //    /// Demonstrates how to work with SqlConnection objects
 //    /// </summary>
